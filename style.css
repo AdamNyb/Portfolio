@@ -5,7 +5,8 @@ html body{
     background-size:  100%;
     background-repeat: no-repeat;
     overflow-y: scroll;
-    font-family: Gill Sans MT, sans-serif;}
+    font-family: Gill Sans MT, sans-serif;
+}
 .title{
     text-align: center;
     vertical-align: middle;
@@ -28,7 +29,7 @@ html body{
     text-align: right;}
 .projectContainer{
     margin-bottom: 40px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     text-align: left;  }
 .projectContainer h1{margin-bottom: 0px;}
@@ -48,10 +49,38 @@ div.txtContainer:hover{color: rgba(256,256,256,1);}
     padding-right: 0px;
     background: linear-gradient(to right, rgba(150,150,150,1), rgba(1,1,1,1));
     border-radius: 50%;
+    margin-right: 5px;
+}
+.connectWith{
+    float: right;
+    right: 8%;
+    margin-right: 10px;
+    margin-top: 20px;
+    position: relative;
+    border: 0;
+}
+#cv{
+    z-index: 10;
+
+}
+#cv .span{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+#cv:hover span{
+visibility: visible;
 }
 imgContainerCam{
 width: 100%;
-
 padding: 0 !important;
 padding-left: 0px;
 padding-right: 0px;
